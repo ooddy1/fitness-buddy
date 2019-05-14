@@ -36,7 +36,7 @@
 <!-- Start of first page -->
 <!-- Start of first page --> 
 <!-- Start of first page -->
-<div data-role="page" id="Menu"data-theme="b">
+<div data-role="page" id="Menu"data-theme="a">
 	<div data-role="header">
 		<h1>Menu</h1>
 	</div><!-- /header -->
@@ -129,13 +129,15 @@
     <input type="checkbox" name="checkbox-5a" id="checkbox-5a">
     <label for="checkbox-5a">Pullups 45lbs 5x5</label>
     <input type="checkbox" name="checkbox-6a" id="checkbox-6a">
-    <label for="checkbox-6a">Decline Bench 5-1-5 SuperSet 15 Pushups</label>
+    <label for="checkbox-6a">Decline Bench 5-1-5</label>
 	<input type="checkbox" name="checkbox-7a" id="checkbox-7a">
     <label for="checkbox-7a">Dips 45lb 5x5+</label>
 	<input type="checkbox" name="checkbox-8a" id="checkbox-8a">
     <label for="checkbox-8a">Lat Pulldown 4x12</label>
 	<input type="checkbox" name="checkbox-9a" id="checkbox-9a">
-    <label for="checkbox-9a">5 Rounds 1 Min - Front Plank:Side Planks:Hanging Raise:Flutter Kicks</label>
+    <label for="checkbox-9a">3 Rounds:12 Chest Flys:10 Bicep Curls:10 Tri Ext:15 Pushups</label>
+	<input type="checkbox" name="checkbox-10a" id="checkbox-10a">
+    <label for="checkbox-10a">5 Rounds 1 Min - Front Plank:Side Planks:Hanging Raise:Flutter Kicks:Situps</label>
 	</fieldset>
 	
 
@@ -163,16 +165,16 @@
 		<fieldset data-role="controlgroup">
     <center><b><legend>Primary Workout</legend></b></center>
 	<center><b><legend>Swim</legend></b></center>	
-	<input type="checkbox" name="checkbox-10a" id="checkbox-10a">
-    <label for="checkbox-10a">200m Warmup</label>
-    <input type="checkbox" name="checkbox-11a" id="checkbox-11a">
-    <label for="checkbox-11a">800m Fast</label>
+	<input type="checkbox" name="checkbox-11a" id="checkbox-11a">
+    <label for="checkbox-11a">200m Warmup</label>
     <input type="checkbox" name="checkbox-12a" id="checkbox-12a">
-    <label for="checkbox-12a">200m Easy</label>
-	<input type="checkbox" name="checkbox-13a" id="checkbox-13a">
-    <label for="checkbox-13a">.200m Fast</label>
-    <input type="checkbox" name="checkbox-14a" id="checkbox-14a">
-    <label for="checkbox-14a">100m MAX Effort</label>
+    <label for="checkbox-12a">800m Fast</label>
+    <input type="checkbox" name="checkbox-13a" id="checkbox-13a">
+    <label for="checkbox-13a">200m Easy</label>
+	<input type="checkbox" name="checkbox-14a" id="checkbox-14a">
+    <label for="checkbox-14a">.200m Fast</label>
+    <input type="checkbox" name="checkbox-15a" id="checkbox-15a">
+    <label for="checkbox-15a">100m MAX Effort</label>
 	</fieldset>
 
 		<div data-role="footer"data-position="fixed">
@@ -188,43 +190,104 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<p>Wednesday week 1</p>
+			<p>Rest Day</p>
 		</div><!-- /content -->
-
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>Stretching</h4>
+    <ul data-role="listview" data-inset="false">
+        <li> Static Holds</li>
+        <li> Foam Rolling</li>
+        <li> Dynamic Movement</li>
+    	</ul>
+</div>
 		<div data-role="footer"data-position="fixed">
-			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"><</a>
+			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"style="width:60px;height:20px;margin:auto;display:block;"><font size="+3"><center><</center></font></a>
 		</div><!-- /footer -->
 	</div><!-- /page -->
 	
-	<!--start of sub page 3 for page 1-->
+	
+	
+	
+	<!--start of sub page 4 for page 1-->
 	<div data-role="page" id="week1day4">
 
 		<div data-role="header">
 		<h1>Thursday</h1>
 		</div><!-- /header -->
 
-		<div role="main" class="ui-content">
-			<p>Thursday week 1</p>
-		</div><!-- /content -->
+		<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    		<h4>Stretching</h4>
+    		<ul data-role="listview" data-inset="false">
+        	<li> Static Holds</li>
+        	<li> Foam Rolling</li>
+        	<li> Dynamic Movement</li>
+    		</ul>
+			</div>
+
+		<fieldset data-role="controlgroup">
+    		<center><b><legend>Primary Workout</legend></b></center>
+			<input type="checkbox" name="checkbox-16a" id="checkbox-16a">
+    		<label for="checkbox-16a">.5 Mile Light Jog Warm Up</label>
+    		<input type="checkbox" name="checkbox-17a" id="checkbox-17a">
+    		<label for="checkbox-17a">2 Mile Tempo Run - 6:30 Pace (9.3 mph)~175 BPM</label>
+    		<input type="checkbox" name="checkbox-18a" id="checkbox-18a">
+    		<label for="checkbox-18a">.5 Mile Light Jog Cooldown</label>
+		</fieldset>
+		<fieldset data-role="controlgroup">
+			<center><b><legend>Secondary Workout</legend></b></center>
+			<center><b><legend>Swim</legend></b></center>
+			<input type="checkbox" name="checkbox-20a" id="checkbox-20a">
+    		<label for="checkbox-20a">500m Quick</label>
+			<input type="checkbox" name="checkbox-21a" id="checkbox-21a">
+    		<label for="checkbox-21a">5 Underwater Crossovers</label>
+		</fieldset>
 
 		<div data-role="footer"data-position="fixed">
-			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"><</a>
+			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"style="width:60px;height:20px;margin:auto;display:block;"><font size="+3"><center><</center></font></a>
 		</div><!-- /footer -->
 	</div><!-- /page -->
 	
-	<!--start of sub page 3 for page 1-->
+	
+	
+	<!--start of sub page 5 for page 1-->
 	<div data-role="page" id="week1day5">
 
 		<div data-role="header">
 		<h1>Friday</h1>
 		</div><!-- /header -->
-
-		<div role="main" class="ui-content">
-			<p>Friday week 1</p>
-		</div><!-- /content -->
+<			<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    		<h4>Stretching</h4>
+    		<ul data-role="listview" data-inset="false">
+        	<li> Static Holds</li>
+        	<li> Foam Rolling</li>
+        	<li> Dynamic Movement</li>
+    		</ul>
+			</div>
+			
+			
+		<fieldset data-role="controlgroup">
+    		<center><b><legend>Primary Workout</legend></b></center>
+			<input type="checkbox" name="checkbox-22a" id="checkbox-22a">
+    		<label for="checkbox-22a">.5 Mile Light Jog Warm Up Optional</label>
+    		<input type="checkbox" name="checkbox-23a" id="checkbox-23a">
+    		<label for="checkbox-23a">Pullups 5x20</label>
+    		<input type="checkbox" name="checkbox-24a" id="checkbox-24a">
+    		<label for="checkbox-24a">Situps 6x50 1 Min Goal</label>
+			<input type="checkbox" name="checkbox-25a" id="checkbox-25a">
+    		<label for="checkbox-25a">Pushups 6x50 1 Min Goal</label>
+			<input type="checkbox" name="checkbox-26a" id="checkbox-26a">
+    		<label for="checkbox-26a">Planks:3 Min Front:1 Min per Side</label>
+		</fieldset>
+		<fieldset data-role="controlgroup">
+			<center><b><legend>Secondary Workout</legend></b></center>
+			<center><b><legend>Swim</legend></b></center>
+			<input type="checkbox" name="checkbox-27a" id="checkbox-27a">
+    		<label for="checkbox-27a">10x 50m Burnout:100m Moderate with 30-60 second rest</label>
+		
+		</fieldset>
 
 		<div data-role="footer"data-position="fixed">
-			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"><</a>
+			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"style="width:60px;height:20px;margin:auto;display:block;"><font size="+3"><center><</center></font></a>
 		</div><!-- /footer -->
 	</div><!-- /page -->
 	
@@ -235,12 +298,29 @@
 		<h1>Saturday</h1>
 		</div><!-- /header -->
 
-		<div role="main" class="ui-content">
-			<p>Saturday week 1</p>
-		</div><!-- /content -->
+		<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    		<h4>Stretching</h4>
+    		<ul data-role="listview" data-inset="false">
+        	<li> Static Holds</li>
+        	<li> Foam Rolling</li>
+        	<li> Dynamic Movement</li>
+    		</ul>
+			</div>
+
+			<fieldset data-role="controlgroup">
+    		<center><b><legend>Primary Workout</legend></b></center>
+			<input type="checkbox" name="checkbox-28a" id="checkbox-28a">
+    		<label for="checkbox-28a">.5 Mile Light Jog Warm Up</label>
+    		<input type="checkbox" name="checkbox-29a" id="checkbox-29a">
+    		<label for="checkbox-29a">Long Run 4-6 Mile 8:00 Pace (7.5 MPH)~120 bpm</label>
+    		<input type="checkbox" name="checkbox-30a" id="checkbox-30a">
+    		<label for="checkbox-30a">.5 Mile Light Jog Cooldown</label>
+			</fieldset>
+
+
 
 		<div data-role="footer"data-position="fixed">
-			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"><</a>
+			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"style="width:60px;height:20px;margin:auto;display:block;"><font size="+3"><center><</center></font></a>
 		</div><!-- /footer -->
 	</div><!-- /page -->
 	
@@ -252,11 +332,19 @@
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
-			<p>Sunday week 1</p>
+			<p>Rest Day</p>
 		</div><!-- /content -->
+<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>Stretching</h4>
+    <ul data-role="listview" data-inset="false">
+        <li> Static Holds</li>
+        <li> Foam Rolling</li>
+        <li> Dynamic Movement</li>
+    	</ul>
+</div>
 
 		<div data-role="footer"data-position="fixed">
-			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"><</a>
+			<a href="#week1"data-transition="slide"data-direction="reverse"class="ui-btn"style="width:60px;height:20px;margin:auto;display:block;"><font size="+3"><center><</center></font></a>
 		</div><!-- /footer -->
 	</div><!-- /page -->
 	
